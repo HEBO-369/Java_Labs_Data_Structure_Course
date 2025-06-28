@@ -80,8 +80,8 @@ public interface IArrayBased {}
 
 ---
 ## 👨‍👩‍👧‍👦 Team Members
-	- **Mohamed Wahban**
-	- **Anas Mahmoud**
+- **Mohamed Wahban**
+- **Anas Mahmoud**
 
 ## 👨‍💻 Author
 
