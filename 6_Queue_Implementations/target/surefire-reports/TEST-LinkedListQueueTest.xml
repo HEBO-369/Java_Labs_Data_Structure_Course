@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="LinkedListQueueTest" time="0.034" tests="6" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/home/hebo/Desktop/hebo/ds/lab6/target/test-classes:/home/hebo/Desktop/hebo/ds/lab6/target/classes:/home/hebo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/hebo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/hebo/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/hebo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/hebo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/hebo/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
+    <property name="java.vm.vendor" value="Debian"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="swing.aatext" value="true"/>
+    <property name="java.vendor.url" value="https://tracker.debian.org/openjdk-23"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="/usr/lib/jvm/java-23-openjdk-amd64/lib"/>
+    <property name="sun.java.command" value="/home/hebo/Desktop/hebo/ds/lab6/target/surefire/surefirebooter11574054968200484610.jar /home/hebo/Desktop/hebo/ds/lab6/target/surefire 2025-05-14T21-24-55_733-jvmRun1 surefire13185454366747619854tmp surefire_015906123791722829586tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/home/hebo/Desktop/hebo/ds/lab6/target/test-classes:/home/hebo/Desktop/hebo/ds/lab6/target/classes:/home/hebo/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.8.2/junit-jupiter-api-5.8.2.jar:/home/hebo/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/home/hebo/.m2/repository/org/junit/platform/junit-platform-commons/1.8.2/junit-platform-commons-1.8.2.jar:/home/hebo/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/hebo/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.8.2/junit-jupiter-engine-5.8.2.jar:/home/hebo/.m2/repository/org/junit/platform/junit-platform-engine/1.8.2/junit-platform-engine-1.8.2.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/hebo"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/usr/lib/jvm/java-23-openjdk-amd64"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/home/hebo/Desktop/hebo/ds/lab6"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/home/hebo/Desktop/hebo/ds/lab6/target/surefire/surefirebooter11574054968200484610.jar"/>
+    <property name="awt.useSystemAAFontSettings" value="on"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.1+11-Debian-1"/>
+    <property name="user.name" value="hebo"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="6.11.2-amd64"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="maven.ext.class.path" value="/home/hebo/.cursor/extensions/oracle.oracle-java-24.0.0/nbcode/java/maven-nblib/netbeans-eventspy.jar"/>
+    <property name="localRepository" value="/home/hebo/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugs.debian.org/openjdk-23"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="java.version" value="23.0.1"/>
+    <property name="user.dir" value="/home/hebo/Desktop/hebo/ds/lab6"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/tmp/.mount_cursordHwElI/usr/lib/:/tmp/.mount_cursordHwElI/usr/lib32/:/tmp/.mount_cursordHwElI/usr/lib64/:/tmp/.mount_cursordHwElI/lib/:/tmp/.mount_cursordHwElI/lib/i386-linux-gnu/:/tmp/.mount_cursordHwElI/lib/x86_64-linux-gnu/:/tmp/.mount_cursordHwElI/lib/aarch64-linux-gnu/:/tmp/.mount_cursordHwElI/lib32/:/tmp/.mount_cursordHwElI/lib64/::/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Debian"/>
+    <property name="java.vm.version" value="23.0.1+11-Debian-1"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testDequeueOnEmptyQueue" classname="LinkedListQueueTest" time="0.015"/>
+  <testcase name="testFrontOnEmptyQueue" classname="LinkedListQueueTest" time="0"/>
+  <testcase name="testToString" classname="LinkedListQueueTest" time="0.007"/>
+  <testcase name="testInitialState" classname="LinkedListQueueTest" time="0.001"/>
+  <testcase name="testEnqueueAndDequeueSingleItem" classname="LinkedListQueueTest" time="0.001"/>
+  <testcase name="testEnqueueMultipleItems" classname="LinkedListQueueTest" time="0"/>
+</testsuite>
